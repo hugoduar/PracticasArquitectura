@@ -1,0 +1,82 @@
+<top name = "test0"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "test0">
+
+    <!--
+        Top Level Pins: 40
+    -->
+
+    <pins>
+        <pitem  name = "A[19]"  direction = "in"  />
+        <pitem  name = "A[18]"  direction = "in"  />
+        <pitem  name = "A[17]"  direction = "in"  />
+        <pitem  name = "A[16]"  direction = "in"  />
+        <pitem  name = "A[15]"  direction = "in"  />
+        <pitem  name = "A[14]"  direction = "in"  />
+        <pitem  name = "A[13]"  direction = "in"  />
+        <pitem  name = "A[12]"  direction = "in"  />
+        <pitem  name = "A[11]"  direction = "in"  />
+        <pitem  name = "A[10]"  direction = "in"  />
+        <pitem  name = "A[9]"  direction = "in"  />
+        <pitem  name = "A[8]"  direction = "in"  />
+        <pitem  name = "A[7]"  direction = "in"  />
+        <pitem  name = "A[6]"  direction = "in"  />
+        <pitem  name = "A[5]"  direction = "in"  />
+        <pitem  name = "A[4]"  direction = "in"  />
+        <pitem  name = "A[3]"  direction = "in"  />
+        <pitem  name = "A[2]"  direction = "in"  />
+        <pitem  name = "A[1]"  direction = "in"  />
+        <pitem  name = "A[0]"  direction = "in"  />
+        <pitem  name = "Y[19]"  direction = "out"  />
+        <pitem  name = "Y[18]"  direction = "out"  />
+        <pitem  name = "Y[17]"  direction = "out"  />
+        <pitem  name = "Y[16]"  direction = "out"  />
+        <pitem  name = "Y[15]"  direction = "out"  />
+        <pitem  name = "Y[14]"  direction = "out"  />
+        <pitem  name = "Y[13]"  direction = "out"  />
+        <pitem  name = "Y[12]"  direction = "out"  />
+        <pitem  name = "Y[11]"  direction = "out"  />
+        <pitem  name = "Y[10]"  direction = "out"  />
+        <pitem  name = "Y[9]"  direction = "out"  />
+        <pitem  name = "Y[8]"  direction = "out"  />
+        <pitem  name = "Y[7]"  direction = "out"  />
+        <pitem  name = "Y[6]"  direction = "out"  />
+        <pitem  name = "Y[5]"  direction = "out"  />
+        <pitem  name = "Y[4]"  direction = "out"  />
+        <pitem  name = "Y[3]"  direction = "out"  />
+        <pitem  name = "Y[2]"  direction = "out"  />
+        <pitem  name = "Y[1]"  direction = "out"  />
+        <pitem  name = "Y[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 0
+    -->
+
+    <!--
+        Views in design "test0": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

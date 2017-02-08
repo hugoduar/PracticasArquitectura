@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "compuertas_compuertas.log"
+-o "compuertas_compuertas.csv"
+-pr "compuertas_compuertas.prf"

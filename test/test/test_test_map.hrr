@@ -1,0 +1,6 @@
+---------------------------------------------------
+Report for cell test0
+   Instance path: test0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	         40        100.0

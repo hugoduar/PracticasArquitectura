@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="test" device="LCMXO2-7000HE-4TG144C" default_implementation="test">
+    <Options/>
+    <Implementation title="test" dir="test" description="test" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="test0"/>
+        <Source name="test0.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="test0"/>
+        </Source>
+        <Source name="test.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="test/test.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="test1.sty"/>
+</BaliProject>

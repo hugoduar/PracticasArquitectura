@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond (64-bit) 3.8.0.115.3.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Feb  7 22:38:14 2017
+
+/usr/local/diamond/3.8_x64/ispfpga/bin/lin64/par -f compuertas_compuertas.p2t
+compuertas_compuertas_map.ncd compuertas_compuertas.dir
+compuertas_compuertas.prf -gui
+
+
+Preference file: compuertas_compuertas.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            -            -            -            -            12           Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 12 secs 
+
+par done!

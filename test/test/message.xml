@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>/media/sf_Arquitectura/Practicas/p5/test/test</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd(4): </Dynamic>
+            <Dynamic>test0</Dynamic>
+            <Navigation>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd(11): </Dynamic>
+            <Dynamic>test0_arch</Dynamic>
+            <Navigation>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd(9): </Dynamic>
+            <Dynamic>test0</Dynamic>
+            <Dynamic>test0_arch</Dynamic>
+            <Navigation>/media/sf_Arquitectura/Practicas/p5/test/test0.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GND_net</Dynamic>
+            <Navigation>GND_net</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

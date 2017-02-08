@@ -1,0 +1,154 @@
+<top name = "comp"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "comp">
+
+    <!--
+        Top Level Pins: 18
+    -->
+
+    <pins>
+        <pitem  name = "Aa[5]"  direction = "in"  />
+        <pitem  name = "Aa[4]"  direction = "in"  />
+        <pitem  name = "Aa[3]"  direction = "in"  />
+        <pitem  name = "Aa[2]"  direction = "in"  />
+        <pitem  name = "Aa[1]"  direction = "in"  />
+        <pitem  name = "Aa[0]"  direction = "in"  />
+        <pitem  name = "Ba[5]"  direction = "in"  />
+        <pitem  name = "Ba[4]"  direction = "in"  />
+        <pitem  name = "Ba[3]"  direction = "in"  />
+        <pitem  name = "Ba[2]"  direction = "in"  />
+        <pitem  name = "Ba[1]"  direction = "in"  />
+        <pitem  name = "Ba[0]"  direction = "in"  />
+        <pitem  name = "Ya[5]"  direction = "out"  />
+        <pitem  name = "Ya[4]"  direction = "out"  />
+        <pitem  name = "Ya[3]"  direction = "out"  />
+        <pitem  name = "Ya[2]"  direction = "out"  />
+        <pitem  name = "Ya[1]"  direction = "out"  />
+        <pitem  name = "Ya[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 7
+    -->
+
+    <instance  name = "Aa_0__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[0]"  />
+        <nitem  name = "Ba[0]"  />
+        <nitem  name = "Ya[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Aa_1__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[1]"  />
+        <nitem  name = "Ba[1]"  />
+        <nitem  name = "Ya[1]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Aa_2__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[2]"  />
+        <nitem  name = "Aa_2__N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Aa_3__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[3]"  />
+        <nitem  name = "Ba[3]"  />
+        <nitem  name = "Ya[3]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Aa_4__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[4]"  />
+        <nitem  name = "Ba[4]"  />
+        <nitem  name = "Ya[4]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Aa_5__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Aa[5]"  />
+        <nitem  name = "Ba[5]"  />
+        <nitem  name = "Ya_5__N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "Ya_5__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "Ya_5__N_1"  />
+        <nitem  name = "Ya[5]"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "comp": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>
